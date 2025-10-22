@@ -23,9 +23,9 @@ import uplaodRouter from "./src/routes/uload.routes.js";
 
 
 
-app.use("/api/user",userRotuer);
-app.use("/api/product",productRouter);
-app.use("/api/order", orderRouter);
+app.use("/api/users",userRotuer);
+app.use("/api/products",productRouter);
+app.use("/api/orders", orderRouter);
 app.use("/api/category",categoryRouter);
 app.use("api/uplaod", uplaodRouter);
 
